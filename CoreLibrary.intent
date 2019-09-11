@@ -1,0 +1,16 @@
+Library CoreLibrary
+
+intent Default_Fallback_Intent {
+	inputs {
+		""
+	}
+}
+
+intent Help {
+	inputs {
+		"Help"
+		"help"
+		"I need some help"
+		"I need some assistance"
+	}
+}
