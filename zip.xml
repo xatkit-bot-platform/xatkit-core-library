@@ -9,9 +9,6 @@
     </formats>
     <files>
         <file>
-            <source>CoreLibrary.xmi</source>
-        </file>
-        <file>
             <source>CoreLibrary.intent</source>
         </file>
     </files>
