@@ -8,7 +8,10 @@ The changelog format is based on [Keep a Changelog](https://keepachangelog.com/e
 
 ## Unreleased
 
+## [1.0.1] - 2019-12-01
 
+### Changed
+- Generated `xmi` files are now ignored by default. These files are not needed since the Xbase integration (`.intrent` files are loaded and parsed on the fly).
 
 ## [1.0.0] - 2019-10-09 
 
