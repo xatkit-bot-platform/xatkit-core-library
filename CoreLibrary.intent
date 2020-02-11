@@ -10,7 +10,41 @@ intent Help {
 	inputs {
 		"Help"
 		"help"
+		"Assist"
+		"I need support"
 		"I need some help"
 		"I need some assistance"
+	}
+}
+
+intent Greetings {
+	inputs {
+		"Hello"
+		"Hi"
+		"Howdy"
+		"Yo"
+		"What's up?"
+		"Greetings"
+		"Good morning"
+		"Good afternoon"
+	}
+}
+
+intent HowAreYou {
+	inputs {
+		"How are you?"
+		"How do you feel?"
+		"How do you do?"
+		"How is it going?"
+		"How are you doing?"
+		"How's everything"
+		"What's going on?"
+	}
+}
+
+intent WhoAreYou {
+	inputs  {
+		"Who are you?"
+		"What are you?"
 	}
 }

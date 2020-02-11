@@ -6,7 +6,32 @@
   <eventDefinitions xsi:type="intent:IntentDefinition" name="Help">
     <trainingSentences>Help</trainingSentences>
     <trainingSentences>help</trainingSentences>
+    <trainingSentences>Assist</trainingSentences>
+    <trainingSentences>I need support</trainingSentences>
     <trainingSentences>I need some help</trainingSentences>
     <trainingSentences>I need some assistance</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="Greetings">
+    <trainingSentences>Hello</trainingSentences>
+    <trainingSentences>Hi</trainingSentences>
+    <trainingSentences>Howdy</trainingSentences>
+    <trainingSentences>Yo</trainingSentences>
+    <trainingSentences>What's up?</trainingSentences>
+    <trainingSentences>Greetings</trainingSentences>
+    <trainingSentences>Good morning</trainingSentences>
+    <trainingSentences>Good afternoon</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="HowAreYou">
+    <trainingSentences>How are you?</trainingSentences>
+    <trainingSentences>How do you feel?</trainingSentences>
+    <trainingSentences>How do you do?</trainingSentences>
+    <trainingSentences>How is it going?</trainingSentences>
+    <trainingSentences>How are you doing?</trainingSentences>
+    <trainingSentences>How's everything</trainingSentences>
+    <trainingSentences>What's going on?</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="WhoAreYou">
+    <trainingSentences>Who are you?</trainingSentences>
+    <trainingSentences>What are you?</trainingSentences>
   </eventDefinitions>
 </intent:Library>
