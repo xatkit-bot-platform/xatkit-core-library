@@ -8,8 +8,14 @@ The changelog format is based on [Keep a Changelog](https://keepachangelog.com/e
 
 ## Unreleased
 
-- Improve training sentences for *Help* intent
+### Added
+
 - Add *Greetings*, *HowAreYou*, and *WhoAreYou* intents. These intents are quite common in designed bot, so we made them easily accessible through the *CoreLibrary*.
+
+### Changed
+
+- Improve training sentences for *Help* intent
+- *Help* intent now creates the `help` context (this context can be used to start a conversation path from the *Help* intent)
 
 ## [1.0.1] - 2019-12-01
 

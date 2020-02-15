@@ -15,6 +15,7 @@ intent Help {
 		"I need some help"
 		"I need some assistance"
 	}
+	creates context help
 }
 
 intent Greetings {

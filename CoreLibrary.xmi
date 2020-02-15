@@ -4,6 +4,7 @@
     <trainingSentences></trainingSentences>
   </eventDefinitions>
   <eventDefinitions xsi:type="intent:IntentDefinition" name="Help">
+    <outContexts name="help"/>
     <trainingSentences>Help</trainingSentences>
     <trainingSentences>help</trainingSentences>
     <trainingSentences>Assist</trainingSentences>
