@@ -17,6 +17,7 @@ The changelog format is based on [Keep a Changelog](https://keepachangelog.com/e
 - Improve training sentences for *Help* intent
 - *Help* intent now creates the `help` context (this context can be used to start a conversation path from the *Help* intent)
 
+- [#1](https://github.com/xatkit-bot-platform/xatkit-core-library/issues/1): *Add welcome intent*
 ## [1.0.1] - 2019-12-01
 
 ### Changed
