@@ -35,4 +35,16 @@
     <trainingSentences>Who are you?</trainingSentences>
     <trainingSentences>What are you?</trainingSentences>
   </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="GoodBye">
+    <trainingSentences>Goodbye</trainingSentences>
+    <trainingSentences>Good-bye</trainingSentences>
+    <trainingSentences>Farewell</trainingSentences>
+    <trainingSentences>Bye</trainingSentences>
+    <trainingSentences>Bye-bye</trainingSentences>
+    <trainingSentences>Bye bye</trainingSentences>
+    <trainingSentences>Good day</trainingSentences>
+    <trainingSentences>Good night</trainingSentences>
+    <trainingSentences>See you later</trainingSentences>
+    <trainingSentences>See you</trainingSentences>
+  </eventDefinitions>
 </intent:Library>

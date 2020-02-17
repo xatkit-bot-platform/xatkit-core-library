@@ -49,3 +49,18 @@ intent WhoAreYou {
 		"What are you?"
 	}
 }
+
+intent GoodBye {
+	inputs {
+		"Goodbye"
+		"Good-bye"
+		"Farewell"
+		"Bye"
+		"Bye-bye"
+		"Bye bye"
+		"Good day"
+		"Good night"
+		"See you later"
+		"See you"
+	}
+}
