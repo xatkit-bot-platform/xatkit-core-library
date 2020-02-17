@@ -12,6 +12,7 @@ The changelog format is based on [Keep a Changelog](https://keepachangelog.com/e
 
 - Add *Greetings*, *HowAreYou*, and *WhoAreYou* intents. These intents are quite common in designed bot, so we made them easily accessible through the *CoreLibrary*.
 - Add *GoodBye* intent.
+- Add *Thanks* intent.
 
 ### Changed
 
@@ -22,6 +23,7 @@ The changelog format is based on [Keep a Changelog](https://keepachangelog.com/e
 
 - [#1](https://github.com/xatkit-bot-platform/xatkit-core-library/issues/1): *Add welcome intent*
 - [#2](https://github.com/xatkit-bot-platform/xatkit-core-library/issues/2): *Add a goodbye intent*
+- [#5](https://github.com/xatkit-bot-platform/xatkit-core-library/issues/5): *Add thanks intent*
 
 ## [1.0.1] - 2019-12-01
 

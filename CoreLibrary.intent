@@ -4,6 +4,7 @@ intent Default_Fallback_Intent {
 	inputs {
 		""
 	}
+	creates context fallback
 }
 
 intent Help {
@@ -62,5 +63,19 @@ intent GoodBye {
 		"Good night"
 		"See you later"
 		"See you"
+	}
+}
+
+intent Thanks {
+	inputs {
+		"Thank you"
+		"Thanks"
+		"Thanking"
+		"Thanks a lot"
+		"Appreciate"
+		"Thank you very much"
+		"Thank you so much"
+		"Many thanks"
+		"You have my gratitude"
 	}
 }

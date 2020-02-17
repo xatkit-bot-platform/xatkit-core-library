@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="ASCII"?>
 <intent:Library xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:intent="com.xatkit.intent" name="CoreLibrary">
   <eventDefinitions xsi:type="intent:IntentDefinition" name="Default_Fallback_Intent">
+    <outContexts name="fallback"/>
     <trainingSentences></trainingSentences>
   </eventDefinitions>
   <eventDefinitions xsi:type="intent:IntentDefinition" name="Help">
@@ -46,5 +47,16 @@
     <trainingSentences>Good night</trainingSentences>
     <trainingSentences>See you later</trainingSentences>
     <trainingSentences>See you</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="Thanks">
+    <trainingSentences>Thank you</trainingSentences>
+    <trainingSentences>Thanks</trainingSentences>
+    <trainingSentences>Thanking</trainingSentences>
+    <trainingSentences>Thanks a lot</trainingSentences>
+    <trainingSentences>Appreciate</trainingSentences>
+    <trainingSentences>Thank you very much</trainingSentences>
+    <trainingSentences>Thank you so much</trainingSentences>
+    <trainingSentences>Many thanks</trainingSentences>
+    <trainingSentences>You have my gratitude</trainingSentences>
   </eventDefinitions>
 </intent:Library>
