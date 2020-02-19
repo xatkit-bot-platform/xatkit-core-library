@@ -4,7 +4,6 @@ intent Default_Fallback_Intent {
 	inputs {
 		""
 	}
-	creates context fallback
 }
 
 intent Help {
