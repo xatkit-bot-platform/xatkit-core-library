@@ -3,6 +3,28 @@
   <eventDefinitions xsi:type="intent:IntentDefinition" name="Default_Fallback_Intent">
     <trainingSentences></trainingSentences>
   </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="Yes">
+    <trainingSentences>yes</trainingSentences>
+    <trainingSentences>fine</trainingSentences>
+    <trainingSentences>okay</trainingSentences>
+    <trainingSentences>ok</trainingSentences>
+    <trainingSentences>yea</trainingSentences>
+    <trainingSentences>affirmative</trainingSentences>
+    <trainingSentences>sure</trainingSentences>
+    <trainingSentences>yep</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="No">
+    <trainingSentences>no</trainingSentences>
+    <trainingSentences>nope</trainingSentences>
+    <trainingSentences>negative</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="Maybe">
+    <trainingSentences>maybe</trainingSentences>
+    <trainingSentences>perchance</trainingSentences>
+    <trainingSentences>perhaps</trainingSentences>
+    <trainingSentences>could be</trainingSentences>
+    <trainingSentences>might be</trainingSentences>
+  </eventDefinitions>
   <eventDefinitions xsi:type="intent:IntentDefinition" name="Help">
     <outContexts name="help"/>
     <trainingSentences>Help</trainingSentences>

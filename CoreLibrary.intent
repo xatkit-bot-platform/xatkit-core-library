@@ -6,6 +6,37 @@ intent Default_Fallback_Intent {
 	}
 }
 
+intent Yes {
+	inputs {
+		"yes"
+		"fine"
+		"okay"
+		"ok"
+		"yea"
+		"affirmative"
+		"sure"
+		"yep"
+	}
+}
+
+intent No {
+	inputs {
+		"no"
+		"nope"
+		"negative"
+	}
+}
+
+intent Maybe {
+	inputs {
+		"maybe"
+		"perchance"
+		"perhaps"
+		"could be"
+		"might be"
+	}
+}
+
 intent Help {
 	inputs {
 		"Help"
