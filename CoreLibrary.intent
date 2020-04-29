@@ -109,3 +109,469 @@ intent Thanks {
 		"You have my gratitude"
 	}
 }
+
+/*
+ * Raw data type intents.
+ * These intents are used to collect specific information from users, e.g.
+ * Bot: How old are you?
+ * User: 23
+ */
+ 
+intent AddressValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity address)
+	}
+}
+
+intent AgeValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity age)
+	}
+}
+
+intent AirportValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity airport)
+	}
+}
+ 
+intent AnyValue {
+ 	inputs {
+ 		"VALUE"
+ 	}
+ 	creates context Value {
+ 		sets parameter ^value from fragment "VALUE" (entity any)
+ 	}
+}
+ 
+intent CapitalValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity capital)
+	}
+}
+
+intent CardinalValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity cardinal)
+	}
+}
+
+intent CityValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity city)
+	}
+}
+
+intent CityGBValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity city-gb)
+	}
+} 
+
+intent CityUSValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity city-us)
+	}
+}
+
+intent ColorValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity color)
+	}
+} 
+
+intent Country {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity country)
+	}
+} 
+
+intent CountryCodeValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity country-code)
+	}
+} 
+
+intent CountryGBValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity county-gb)
+	}
+} 
+
+intent CountryUSValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity county-us)
+	}
+} 
+
+intent DateValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity date)
+	}
+} 
+
+intent DatePeriodValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity date-period)
+	}
+} 
+
+intent DateTimeValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity date-time)
+	}
+} 
+
+intent DurationValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity duration)
+	}
+} 
+
+intent EmailValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity email)
+	}
+} 
+
+intent FlightNumberValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity flight-number)
+	}
+} 
+
+intent GivenNameValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity given-name)
+	}
+} 
+
+intent IntegerValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity integer)
+	}
+} 
+
+intent LanguageValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity language)
+	}
+} 
+
+intent LastNameValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity last-name)
+	}
+} 
+
+intent LocationValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity location)
+	}
+} 
+
+intent MusicArtistValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity music-artist)
+	}
+} 
+
+intent MusicGenreValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity music-genre)
+	}
+} 
+
+intent NumberValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity number)
+	}
+}
+
+intent NumberSequenceValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity number-sequence)
+	}
+} 
+
+intent OrdinalValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity ordinal)
+	}
+} 
+
+intent PercentageValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity percentage)
+	}
+} 
+
+intent PhoneNumberValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity phone-number)
+	}
+} 
+
+intent PlaceAttractionValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity place-attraction)
+	}
+} 
+
+intent PlaceAttractionGBValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity place-attraction-gb)
+	}
+} 
+
+intent PlaceAttractionUSValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity place-attraction-us)
+	}
+} 
+
+intent StateValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity state)
+	}
+} 
+
+intent StateGBValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity state-gb)
+	}
+} 
+
+intent StateUSValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity state-us)
+	}
+} 
+
+intent StreetAddressValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity street-address)
+	}
+} 
+
+intent TemperatureValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity temperature)
+	}
+} 
+
+intent TimeValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity time)
+	}
+} 
+
+intent TimePeriodValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity time-period)
+	}
+} 
+
+intent UnitAreaValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity unit-area)
+	}
+} 
+
+intent UnitCurrencyValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity unit-currency)
+	}
+} 
+
+intent UnitInformationValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity unit-information)
+	}
+} 
+
+intent UnitLengthValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity unit-length)
+	}
+} 
+
+intent UnitSpeedValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity unit-speed)
+	}
+} 
+
+intent UnitVolumeValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity unit-volume)
+	}
+} 
+
+intent UnitWeightValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity unit-weight)
+	}
+} 
+
+intent URLValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity url)
+	}
+} 
+
+intent ZipCodeValue {
+	inputs {
+		"VALUE"
+	}
+	creates context Value {
+		sets parameter ^value from fragment "VALUE" (entity zip-code)
+	}
+} 

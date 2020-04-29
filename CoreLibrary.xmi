@@ -80,4 +80,514 @@
     <trainingSentences>Many thanks</trainingSentences>
     <trainingSentences>You have my gratitude</trainingSentences>
   </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="AddressValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="address"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="AgeValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="age"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="AirportValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="airport"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="AnyValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="CapitalValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="capital"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="CardinalValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="cardinal"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="CityValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="city"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="CityGBValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="city-gb"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="CityUSValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="city-us"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="ColorValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="color"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="Country">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="country"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="CountryCodeValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="country-code"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="CountryGBValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="county-gb"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="CountryUSValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="county-us"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="DateValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="date"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="DatePeriodValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="date-period"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="DateTimeValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="date-time"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="DurationValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="duration"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="EmailValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="email"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="FlightNumberValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="flight-number"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="GivenNameValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="given-name"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="IntegerValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="integer"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="LanguageValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="language"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="LastNameValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="last-name"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="LocationValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="location"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="MusicArtistValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="music-artist"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="MusicGenreValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="music-genre"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="NumberValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="number"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="NumberSequenceValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="number-sequence"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="OrdinalValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="ordinal"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="PercentageValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="percentage"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="PhoneNumberValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="phone-number"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="PlaceAttractionValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="place-attraction"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="PlaceAttractionGBValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="place-attraction-gb"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="PlaceAttractionUSValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="place-attraction-us"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="StateValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="state"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="StateGBValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="state-gb"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="StateUSValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="state-us"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="StreetAddressValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="street-address"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="TemperatureValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="temperature"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="TimeValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="time"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="TimePeriodValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="time-period"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="UnitAreaValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="unit-area"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="UnitCurrencyValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="unit-currency"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="UnitInformationValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="unit-information"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="UnitLengthValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="unit-length"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="UnitSpeedValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="unit-speed"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="UnitVolumeValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="unit-volume"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="UnitWeightValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="unit-weight"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="URLValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="url"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="ZipCodeValue">
+    <outContexts name="Value">
+      <parameters name="value" textFragment="VALUE">
+        <entity xsi:type="intent:BaseEntityDefinitionReference">
+          <baseEntity entityType="zip-code"/>
+        </entity>
+      </parameters>
+    </outContexts>
+    <trainingSentences>VALUE</trainingSentences>
+  </eventDefinitions>
 </intent:Library>
