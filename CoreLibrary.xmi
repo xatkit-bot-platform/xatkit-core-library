@@ -4,6 +4,7 @@
     <trainingSentences></trainingSentences>
   </eventDefinitions>
   <eventDefinitions xsi:type="intent:IntentDefinition" name="Yes">
+    <trainingSentences>Yes</trainingSentences>
     <trainingSentences>yes</trainingSentences>
     <trainingSentences>fine</trainingSentences>
     <trainingSentences>okay</trainingSentences>
@@ -14,6 +15,7 @@
     <trainingSentences>yep</trainingSentences>
   </eventDefinitions>
   <eventDefinitions xsi:type="intent:IntentDefinition" name="No">
+    <trainingSentences>No</trainingSentences>
     <trainingSentences>no</trainingSentences>
     <trainingSentences>nope</trainingSentences>
     <trainingSentences>negative</trainingSentences>

@@ -8,6 +8,7 @@ intent Default_Fallback_Intent {
 
 intent Yes {
 	inputs {
+		"Yes"
 		"yes"
 		"fine"
 		"okay"
@@ -21,6 +22,7 @@ intent Yes {
 
 intent No {
 	inputs {
+		"No"
 		"no"
 		"nope"
 		"negative"
